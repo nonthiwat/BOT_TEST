@@ -40,7 +40,7 @@ function solve($n,$NUMBER_TO_BE_CAL,$g_number,$PRECISION,$g_expression) {
     if(1 == $n){
         //echo abs($NUMBER_TO_BE_CAL - $g_number[0]) < $PRECISION;
         if(abs($NUMBER_TO_BE_CAL - $g_number[0]) < $PRECISION){
-            $strAccessToken = "qhkGJRTjbe1ZRORzS5XSojwnwQLxwv6ld8lnv7lzC9mD4WGzbWEyxaPNdchsGzwxIOKCGI2U/YDXpeeQkxWgqmaSRf0uiQwhuu+M0fmLcJ4L/thVV/+SkOXi0eo0KGG39y4oywe0ef+Ww6VesSOX8gdB04t89/1O/w1cDnyilFU=";
+            $strAccessToken = "Ce9xPpmJB6TPrGx9BU6wHQCvehuo62ueuEVENuGntzDlMzocz937YZIuIu3Xutc0amDzj1zGgcZdQhxr6raeIDKyTCYrY0D47U4mXZ+4C2z+y1E/2gfnl1lWoLE8xkMaz6cJiPb+VZ51BwD+jkZUUwdB04t89/1O/w1cDnyilFU=";
  
             $content = file_get_contents('php://input');
             $arrJson = json_decode($content, true);
